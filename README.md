@@ -33,23 +33,28 @@ Each regression coefficient represents the change in Y relative to a one unit ch
 
 
 Requirements :-
+```
 Python 3.6 or above
-
 Numpy Module
-
 Matplotlib Module
-
 Sklearn 
-
 seaborn
+```
 
 
-Quickstart
+# Quickstart
+```
 git clone git@github.com:goshipra/Uber_Lyft_Analysis.git
 cd Uber_Lyft_Analysis
+```
 
 Executing Project
-` ./price_prediction.ipny `
+`./preprocessing_rides.ipynb`  --> Preprcessing: Cleaning and analysing Datasets
+`./Comparing_rides.ipynb` --> To get a comparison of the rides of both the companies using dataset.
+`./Comparing_fares.ipynb`  --> To get a comparison of the ride charges of both the companies using dataset.
+` ./price_prediction.ipynb ` --> To predict price of both the companies according to the analysis and the model we created.
+
+
 
 
 
