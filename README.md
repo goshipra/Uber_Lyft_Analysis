@@ -49,7 +49,7 @@ git clone git@github.com:goshipra/Uber_Lyft_Analysis.git
 cd Uber_Lyft_Analysis
 
 Executing Project
-- download the
+` ./price_prediction.ipny `
 
 
 
