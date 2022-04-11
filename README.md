@@ -43,17 +43,23 @@ seaborn
 
 
 # Quickstart
+At first you need to download and setup Anaconda Navigator, use jupyter notebook
+OR
+You can use Google Collab online to run this project.
+
+In a CLI, 
 ```
 git clone git@github.com:goshipra/Uber_Lyft_Analysis.git
 cd Uber_Lyft_Analysis
 ```
 
 Executing Project
+- Open project in notebook and run the files individually in the following order:
 ```
-./preprocessing_rides.ipynb  --> Preprcessing: Cleaning and analysing Datasets
-./Comparing_rides.ipynb --> To get a comparison of the rides of both the companies using dataset.
-./Comparing_fares.ipynb  --> To get a comparison of the ride charges of both the companies using dataset.
-./price_prediction.ipynb  --> To predict price of both the companies according to the analysis and the model we created.
+preprocessing_rides.ipynb  --> Preprcessing: Cleaning and analysing Datasets
+Comparing_rides.ipynb --> To get a comparison of the rides of both the companies using dataset.
+Comparing_fares.ipynb  --> To get a comparison of the ride charges of both the companies using dataset.
+price_prediction.ipynb  --> To predict price of both the companies according to the analysis and the model we created.
 
 ```
 
